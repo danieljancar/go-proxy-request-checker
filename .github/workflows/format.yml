@@ -1,4 +1,4 @@
-$name: Prettier Formatting
+name: Prettier Formatting
 
 on:
   pull_request:
@@ -21,5 +21,5 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
-          prettier_options: '--write **/*.{go,js,jsx,ts,tsx,css,md,json,yml}'
+          prettier_options: '--write **/*.{json,md}'
           github_token: ${{ secrets.GITHUB_TOKEN }}

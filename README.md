@@ -6,8 +6,8 @@ This is a simple proxy checker written in Go. It checks the links in the `links.
 
 ### Prerequisites
 
-* [Go](https://golang.org/dl/)
-* [Git](https://git-scm.com/downloads)
+- [Go](https://golang.org/dl/)
+- [Git](https://git-scm.com/downloads)
 
 ### Installing
 
@@ -66,6 +66,10 @@ Do you wish to export the results? (y/n): y
 Enter file path to save the report (default: report.json): test-output
 2023/12/21 18:30:25 Report successfully saved to test-output
 ```
+
+# Known Issues
+
+- [ ] If running the binary, the report is not saved to the specified file path, also the links.json file is not found.
 
 # Contributing
 
