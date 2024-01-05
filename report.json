@@ -1,6 +1,6 @@
 {
   "Name": "Report",
-  "Date": "2020-02-02",
+  "Date": "2024-01-05 07:47:14",
   "Requests": [
     {
       "URL": "https://google.com",
@@ -16,6 +16,31 @@
       "URL": "https://css.ch",
       "ExpectedResponse": 200,
       "ActualResponse": 200
+    },
+    {
+      "URL": "https://slack.com",
+      "ExpectedResponse": 403,
+      "ActualResponse": 200
+    },
+    {
+      "URL": "https://slack.com",
+      "ExpectedResponse": 403,
+      "ActualResponse": 200
+    },
+    {
+      "URL": "https://slack.com",
+      "ExpectedResponse": 403,
+      "ActualResponse": 200
+    },
+    {
+      "URL": "https://slack.com",
+      "ExpectedResponse": 403,
+      "ActualResponse": 200
+    },
+    {
+      "URL": "https://slack.com",
+      "ExpectedResponse": 403,
+      "ActualResponse": 429
     },
     {
       "URL": "https://slack.com",

@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"log"
+	"time"
 )
 
 type Report struct {
@@ -21,7 +22,7 @@ type RequestReport struct {
 func NewReport() *Report {
 	return &Report{
 		Name: "Report",
-		Date: "2020-02-02",
+		Date: time.Now().Format("2006-01-02 15:04:05"),
 	}
 }
 
